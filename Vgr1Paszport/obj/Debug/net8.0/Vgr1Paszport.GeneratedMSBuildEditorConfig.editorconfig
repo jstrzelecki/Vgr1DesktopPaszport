@@ -22,5 +22,8 @@ build_property.EnableGeneratedComInterfaceComImportInterop =
 [/home/js/RiderProjects/Vgr1Paszport/Vgr1Paszport/App.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 
+[/home/js/RiderProjects/Vgr1Paszport/Vgr1Paszport/DialogWindow.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
 [/home/js/RiderProjects/Vgr1Paszport/Vgr1Paszport/MainWindow.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml

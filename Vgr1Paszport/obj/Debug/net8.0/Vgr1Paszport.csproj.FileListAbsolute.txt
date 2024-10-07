@@ -65,3 +65,4 @@
 /home/js/RiderProjects/Vgr1Paszport/Vgr1Paszport/obj/Debug/net8.0/Vgr1Paszport.csproj.CopyComplete
 /home/js/RiderProjects/Vgr1Paszport/Vgr1Paszport/obj/Debug/net8.0/Vgr1Paszport.genruntimeconfig.cache
 /home/js/RiderProjects/Vgr1Paszport/Vgr1Paszport/obj/Debug/net8.0/ref/Vgr1Paszport.dll
+/home/js/RiderProjects/Vgr1Paszport/Vgr1Paszport/obj/Debug/net8.0/Vgr1Paszport.sourcelink.json

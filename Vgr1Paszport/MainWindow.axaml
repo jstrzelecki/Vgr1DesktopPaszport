@@ -20,6 +20,7 @@
                                 <TextBox Width="200"
                                          Background="#F0FFFF"
                                          x:Name="NumberTextBox"
+                                         LostFocus="NumberTextBox_OnLostFocus"
                                          ></TextBox>
                         </StackPanel>
                         <StackPanel Orientation="Horizontal"
@@ -35,7 +36,7 @@
                                 <TextBlock Width="100">Nazwisko</TextBlock>
                                 <TextBox Width="200"
                                          Background="#F0FFFF"
-                                         x:Name="SurnameTextBox"></TextBox>
+                                         x:Name="LastnameTextBox"></TextBox>
                         </StackPanel>
                         
                         <Border  BorderBrush="#F0FFFF" 
@@ -51,12 +52,15 @@
                                                    >Kolor oczu</TextBlock>
                                         <RadioButton GroupName="eyeColor"
                                                      Tag="blue"
+                                                     x:Name="blueColor"
                                                      >niebieskie</RadioButton>
                                         <RadioButton GroupName="eyeColor"
                                                      Tag="green"
+                                                     x:Name="greenColor"
                                                      >zielone</RadioButton>
                                         <RadioButton GroupName="eyeColor"
                                                      Tag="beer"
+                                                     x:Name="beerColor"
                                                      >piwne</RadioButton>
                                 </StackPanel>
                         </Border>
@@ -68,11 +72,14 @@
                                         Width="150"
                                         Height="150"
                                         Margin="0, 0, 20, 0"
-                                        ></Image>
+                                        x:Name="PictureImage"
+                                        />
                                 <Image
-                                        Source="Assets/000-odcisk.jpg"
+                                        Source="Assets/000-odciski.jpg"
                                         Width="150"
-                                        Height="180"></Image>
+                                        Height="180"
+                                        x:Name="FingerprintImage"
+                                        />
                                 
                         </StackPanel>
                         

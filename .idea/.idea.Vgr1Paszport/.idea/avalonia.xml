@@ -3,6 +3,7 @@
   <component name="AvaloniaProject">
     <option name="projectPerEditor">
       <map>
+        <entry key="Vgr1Paszport/DialogWindow.axaml" value="Vgr1Paszport/Vgr1Paszport.csproj" />
         <entry key="Vgr1Paszport/MainWindow.axaml" value="Vgr1Paszport/Vgr1Paszport.csproj" />
       </map>
     </option>

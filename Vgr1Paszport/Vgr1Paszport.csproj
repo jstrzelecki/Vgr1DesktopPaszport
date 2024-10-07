@@ -18,9 +18,9 @@
     </ItemGroup>
 
     <ItemGroup>
-      <AvaloniaResource Include="Assets\000-odcisk.jpg" />
+      <AvaloniaResource Include="Assets\000-odciski.jpg" />
       <AvaloniaResource Include="Assets\000-zdjecie.jpg" />
-      <AvaloniaResource Include="Assets\111-odcisk.jpg" />
+      <AvaloniaResource Include="Assets\111-odciski.jpg" />
       <AvaloniaResource Include="Assets\111-zdjecie.jpg" />
       <AvaloniaResource Include="Assets\222-odciski.jpg" />
       <AvaloniaResource Include="Assets\222-zdjecie.jpg" />
