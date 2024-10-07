@@ -1,0 +1,89 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" Width="800" Height="370"
+        x:Class="Vgr1Paszport.MainWindow"
+        Background="#5F9EA0"
+        Title="Wprowadzenie danych do paszportu. Wykonał: 000000000000">
+    
+        <Grid>
+                <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"></ColumnDefinition>
+                        <ColumnDefinition Width="*"></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+                
+                <StackPanel  Margin="40" HorizontalAlignment="Center" VerticalAlignment="Center">
+                        <StackPanel Orientation="Horizontal" 
+                                    Margin="0 ,0, 0, 15">
+                                <TextBlock Width="100">Numer</TextBlock>
+                                <TextBox Width="200"
+                                         Background="#F0FFFF"
+                                         x:Name="NumberTextBox"
+                                         ></TextBox>
+                        </StackPanel>
+                        <StackPanel Orientation="Horizontal"
+                                    Margin="0 ,0, 0, 15">
+                                <TextBlock Width="100">Imie</TextBlock>
+                                <TextBox Width="200"
+                                         Background="#F0FFFF"
+                                         x:Name="NameTextBox"
+                                         ></TextBox>
+                        </StackPanel >
+                        <StackPanel Orientation="Horizontal"
+                                    Margin="0 ,0, 0, 40">
+                                <TextBlock Width="100">Nazwisko</TextBlock>
+                                <TextBox Width="200"
+                                         Background="#F0FFFF"
+                                         x:Name="SurnameTextBox"></TextBox>
+                        </StackPanel>
+                        
+                        <Border  BorderBrush="#F0FFFF" 
+                                 BorderThickness="2" 
+                                 CornerRadius="5"
+                                 Padding="20, 10, 0, 10">
+                                <StackPanel>
+                                        <TextBlock Background="#5F9EA0"
+                                                   Margin="-15, -24, 0, 0"
+                                                   Width="78"
+                                                   Padding="4"
+                                                   HorizontalAlignment="Left"
+                                                   >Kolor oczu</TextBlock>
+                                        <RadioButton GroupName="eyeColor"
+                                                     Tag="blue"
+                                                     >niebieskie</RadioButton>
+                                        <RadioButton GroupName="eyeColor"
+                                                     Tag="green"
+                                                     >zielone</RadioButton>
+                                        <RadioButton GroupName="eyeColor"
+                                                     Tag="beer"
+                                                     >piwne</RadioButton>
+                                </StackPanel>
+                        </Border>
+                </StackPanel>
+                <StackPanel Grid.Column="1" Margin="20, 20" HorizontalAlignment="Center" VerticalAlignment="Center">
+                        <StackPanel Orientation="Horizontal">
+                                <Image
+                                        Source="Assets/000-zdjecie.jpg"
+                                        Width="150"
+                                        Height="150"
+                                        Margin="0, 0, 20, 0"
+                                        ></Image>
+                                <Image
+                                        Source="Assets/000-odcisk.jpg"
+                                        Width="150"
+                                        Height="180"></Image>
+                                
+                        </StackPanel>
+                        
+                        <Button Background="#F0FFFF" 
+                                Width="300"
+                                HorizontalAlignment="Center"
+                                HorizontalContentAlignment="Center"
+                                Margin="0, 20"
+                                Padding="10"
+                                Click="Submit"
+                                >OK</Button>
+                </StackPanel>
+        </Grid>
+</Window>
